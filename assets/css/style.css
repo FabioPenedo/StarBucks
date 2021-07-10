@@ -23,7 +23,7 @@ header .container {
   margin: auto;
   margin-top: 15px;
   margin-bottom: 20px;
-  padding-left: 5px;
+  padding-left: 10px;
   height: auto;
 }
 header .container .logo img {
@@ -131,7 +131,7 @@ section .images-banner img {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  width: 480px;
+  max-width: 480px;
   margin-bottom: 70px;
 }
 .area1 .area1--content .text--area1 h2 {
@@ -196,7 +196,7 @@ section .images-banner img {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  width: 480px;
+  max-width: 480px;
   margin-bottom: 70px;
 }
 .area2 .area2--content .text--area2 h2 {
@@ -261,13 +261,13 @@ section .images-banner img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 700px;
 }
 .area3 .area3--text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 100%;
   max-width: 450px;
 }
 .area3 .area3--text h2 {
@@ -375,4 +375,91 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1140px) {
+  .banner .container {
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+
+  .area4 {
+    grid-template-columns: 400px 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .area1 {
+    grid-template-columns: 3fr 2fr;
+  }
+  .area1 .area1--content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .area2 .area2--content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .area2 {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .area3 .area3--content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .banner .container {
+    justify-content: space-evenly;
+  }
+  .banner .container .text--banner h1 {
+    font-size: 3.5rem;
+  }
+  .banner .container .images-banner {
+    justify-content: space-evenly;
+  }
+  .banner .container .images-banner img {
+    height: 100px;
+    border: 3px solid #117050;
+  }
+
+  .area1 {
+    grid-template-columns: 1fr;
+  }
+  .area1 .area1--content .text--area1 h2 {
+    font-size: 2.2rem;
+  }
+
+  .area2 {
+    grid-template-columns: 1fr;
+  }
+  .area2 .area2--content .text--area2 h2 {
+    font-size: 2rem;
+  }
+
+  .area3 {
+    grid-template-columns: 1fr;
+  }
+
+  .area4 {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    height: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .area1 .area1--img1 {
+    height: 300px;
+  }
+  .area1 .area1--content .text--area1 {
+    margin-bottom: 20px;
+  }
+
+  header .container form input {
+    max-width: 120px;
+  }
 }
