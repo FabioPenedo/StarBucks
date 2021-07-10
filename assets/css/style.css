@@ -1,0 +1,378 @@
+header .container form button, header .container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .line {
+  background-color: #117050;
+  width: 100%;
+  height: 10px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  height: auto;
+}
+header .container .logo img {
+  height: 64px;
+  width: 64px;
+}
+header .container form {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #b3b3b3;
+}
+header .container form input {
+  width: 100%;
+  max-width: 225px;
+  height: 35px;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  outline: 0;
+  padding-left: 5px;
+}
+header .container form button {
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+}
+header .container form img {
+  height: 16px;
+  width: 16px;
+}
+header .container .menu-pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 370px;
+}
+header .container .menu-pesquisa #menu {
+  height: 24px;
+  width: 24px;
+}
+
+.banner {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 690px;
+}
+
+section .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+}
+section .container h1 {
+  font-size: 6rem;
+  font-family: "Oswald", sans-serif;
+}
+section .container span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+section .container .text--banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 485px;
+  height: auto;
+}
+section .images-banner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 560px;
+}
+section .images-banner img {
+  border: 5px solid #117050;
+  border-radius: 50%;
+  height: 160px;
+}
+
+.area1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.area1 .area1--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.area1 .area1--content .bar {
+  height: 20px;
+  width: 170px;
+  background-color: #006341;
+  margin-bottom: 20px;
+}
+.area1 .area1--content .text--area1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  width: 480px;
+  margin-bottom: 70px;
+}
+.area1 .area1--content .text--area1 h2 {
+  text-transform: capitalize;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.25rem;
+  margin-bottom: 20px;
+}
+.area1 .area1--content .text--area1 p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+.area1 .area1--content .text--area1 span {
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+.area1 .area1--content button {
+  background-color: white;
+  border: 2px solid #454545;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 35px;
+  color: #454545;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.area1 .area1--content button:hover {
+  background-color: #454545;
+  color: white;
+}
+.area1 .area1--img1 {
+  height: 350px;
+  background-image: url(../images/f2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.area1 .area1--img2 {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  background-image: url(../images/f1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.area2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.area2 .area2--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+.area2 .area2--content .bar {
+  height: 20px;
+  width: 170px;
+  background-color: #006341;
+  margin-bottom: 20px;
+}
+.area2 .area2--content .text--area2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  width: 480px;
+  margin-bottom: 70px;
+}
+.area2 .area2--content .text--area2 h2 {
+  text-transform: capitalize;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.25rem;
+  margin-bottom: 20px;
+}
+.area2 .area2--content .text--area2 p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+.area2 .area2--content .text--area2 span {
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+.area2 .area2--content button {
+  background-color: white;
+  border: 2px solid #454545;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 35px;
+  color: #454545;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.area2 .area2--content button:hover {
+  background-color: #454545;
+  color: white;
+}
+.area2 .area2--img1 {
+  height: 600px;
+  background-image: url(../images/f4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.area2 .area2--img2 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-image: url(../images/f3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.area3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.area3 .area3--img1 {
+  grid-column: 1/2;
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  background-position: left;
+  height: 1000px;
+}
+.area3 .area3--img2 {
+  grid-column: 2/3;
+  background-image: url(../images/f5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.area3 .area3--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+}
+.area3 .area3--text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 450px;
+}
+.area3 .area3--text h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+}
+.area3 .area3--text span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.area3 .area3--text button {
+  background-color: white;
+  border: 2px solid #454545;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 35px;
+  color: #454545;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.area3 .area3--text button:hover {
+  background-color: #454545;
+  color: white;
+}
+
+.area4 {
+  display: grid;
+  grid-template-columns: 800px 1fr;
+}
+.area4 .area4--img1 {
+  background-image: url(../images/bg3.jpg);
+  background-position: left;
+}
+.area4 .area4--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 770px;
+  background-color: #e8e9ee;
+}
+.area4 .area4--content .area4--box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+}
+.area4 .area4--content .bar {
+  height: 20px;
+  width: 170px;
+  background-color: #006341;
+  margin-bottom: 20px;
+}
+.area4 .area4--content .area4--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.area4 .area4--content .area4--text h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+}
+.area4 .area4--content .area4--text span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.area4 .area4--content .area4--text button {
+  background-color: #e8e9ee;
+  border: 2px solid #454545;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 35px;
+  color: #454545;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.area4 .area4--content .area4--text button:hover {
+  background-color: #454545;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  height: 200px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+footer span {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: #a8f8dd;
+}
+footer a:hover {
+  text-decoration: underline;
+}
