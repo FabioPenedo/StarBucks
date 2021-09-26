@@ -10,7 +10,7 @@ Para colocar em pratica estudo de flexbox com grid, e usando o sass.
 
 <hr>
 
-# <a href="https://fabiopenedo.github.io/StarBucks/">Link</a> #
+# <a href="https://fabiopenedo.github.io/StarBucks/">Testar</a> #
 
 ### Usado ###
 + HTML
